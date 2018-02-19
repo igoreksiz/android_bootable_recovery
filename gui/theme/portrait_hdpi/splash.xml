@@ -20,6 +20,7 @@
 		<variable name="background_color" value="#222222"/>
 		<variable name="header_color" value="#555555"/>
 		<variable name="accent_color" value="#0090CA"/>
+		<variable name="elite_color" value="#FFFFFF"/>
 	</variables>
 
 	<pages>
@@ -44,6 +45,11 @@
 				<font resource="font_l"/>
 				<placement x="540" y="1590" placement="5"/>
 				<text>Recovery Project %tw_version%</text>
+			</text>
+			<text color="%elite_color%">
+				<font resource="font_l"/>
+				<placement x="540" y="1400" placement="5"/>
+				<text>Elite Development TWRP</text>
 			</text>
 		</page>
 	</pages>
